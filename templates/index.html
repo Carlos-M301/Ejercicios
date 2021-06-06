@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="../css/app.css">
+    <title>Ejercicios</title>
+</head>
+<body>
+    <div class="container-center">
+        <p class="header">Instrucciones: Al ingresar el número de casos debe presionar la tecla enter. Posteriormente deberá llenar todos los campos
+            que generó (como máximo puede generar 10), y dar clic en el botón que dice "Evaluar". Si quiere ingresar otra cantidad de palabras debe dar
+            clic en el botón "Limpiar" para que nuevamente pueda ingresar los casos a evaluar.</p>
+        <div class="card">
+            <div class="content">
+                <p class="header">Teclado Móvil</p>
+                <hr>
+                <label for="numberT">Número de palabras a ingresar</label>
+                <input id="movil"  type="number" placeholder="Ejemplo: 4">
+                <hr>
+                <form action="/" id="inputsExc1">
+                    <div id="inputsM">
+
+                    </div>
+                    <div class="group-buttons">
+                        <button type="submit" class="btn blue" id="btnM" >Evaluar</button>
+                        <button type="button" class="btn red" id="btnMR" >Limpiar</button>
+                    </div>
+                </form>
+                <div id="respuestasM">
+
+                </div>
+            </div>
+            
+        </div>
+        <div class="card">
+            <div class="content">
+                <p class="header">El  Biólogo</p>
+                <hr>
+                <label for="numberT">Número de conjuntos a ingresar</label>
+                <input id="biologo" type="number" placeholder="Ejemplo: 4">
+                <hr>
+                <form action="/" id="inputsExc2">
+                    <div id="inputsB">
+
+                    </div>
+                    <div class="group-buttons">
+                        <button class="btn blue" id="btnB">Evaluar</button>
+                        <button class="btn red" id="btnBR">Limpiar</button>
+                    </div>
+                </form>
+                
+                <div id="respuestasB">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js" integrity="sha512-VEd+nq25CkR676O+pLBnDW09R7VQX9Mdiij052gVCp5yVH3jGtH70Ho/UUv4mJDsEdTvqRCFZg0NKGiojGnUCw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="../js/inputs.js"></script>
+</body>
+</html>
+
